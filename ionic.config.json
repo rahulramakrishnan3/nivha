@@ -1,0 +1,7 @@
+{
+  "name": "nivha",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
