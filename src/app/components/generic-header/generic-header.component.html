@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start" *ngIf="header?.backButton">
+      <ion-back-button default-href="#"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">{{header.label}}</ion-title>
+    <ion-button slot="end" (click)="getProfile()" fill="clear" class="icon-button">
+      <ion-icon name="person-outline" slot="icon-only" aria-hidden="true"></ion-icon>
+    </ion-button>
+    <ion-button slot="end" (click)="getCart()" fill="clear" class="icon-button">
+      <ion-icon name="cart-outline" slot="icon-only" aria-hidden="true"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
